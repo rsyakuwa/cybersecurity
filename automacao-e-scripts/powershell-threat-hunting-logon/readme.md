@@ -64,3 +64,8 @@ Filtragem Eficiente em SecOps: O uso de -FilterHashtable executa a filtragem do 
 Lógica de Correlação Proativa: A evolução para o monitoramento em loop simula o comportamento básico de um agente de SIEM, que analisa logs de forma contínua para reduzir o tempo de detecção (Mean Time to Detect - MTTD).
 
 Aviso Legal: Este laboratório foi executado em ambiente estritamente local e controlado para fins didáticos de auditoria e segurança da informação.
+
+### 🎯 Validação Prática em Laboratório
+Abaixo está o registro visual do script em execução, demonstrando a captura em tempo real das tentativas de logon com falha simuladas no ambiente de testes:
+
+![Demonstração do Mini-SIEM em funcionamento](resultado_teste.png)
