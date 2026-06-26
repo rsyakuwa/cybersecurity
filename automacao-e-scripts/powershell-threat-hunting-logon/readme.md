@@ -1,3 +1,4 @@
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 # 🛡️ Threat Hunting Basics: Caçando Falhas de Logon com PowerShell
 
 Este repositório documenta um laboratório prático de auditoria de segurança e *Threat Hunting* focado na análise de logs de eventos do ecossistema Windows utilizando o PowerShell.
