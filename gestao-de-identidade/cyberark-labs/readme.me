@@ -1,1 +1,40 @@
+# 🔏 Gestão de Acessos e Identidade com CyberArk (Identity Security)
 
+Este subprojeto é dedicado à documentação de cenários práticos, arquitetura e conceitos de segurança de identidade utilizando a plataforma CyberArk. O foco principal está na implementação do princípio do privilégio mínimo, isolamento de sessões e proteção de credenciais críticas de infraestrutura contra ameaças internas e externas.
+
+A prática simula as rotinas de um analista de segurança focado em governança de acessos e proteção de contas com altos privilégios (Domain Admins, Root, DBAs).
+
+---
+
+## 📝 Descrição do Cenário de Laboratório
+
+Para este ambiente de estudos, foi estruturado um cenário de controle e governança sobre contas administrativas que gerenciam servidores de banco de dados e servidores de arquivos de produção em um ecossistema corporativo.
+
+### Objetivos do Laboratório:
+*   **Cofre de Senhas (Vaulting):** Armazenamento seguro de credenciais administrativas de instâncias Windows Server e Linux.
+*   **Isolamento de Sessão:** Configuração para garantir que administradores acessem os servidores sem nunca visualizar ou expor a senha real do ativo.
+*   **Rotação Automática:** Definição de políticas de troca periódica de senhas complexas para mitigar ataques de movimentação lateral e *Pass-the-Hash*.
+
+---
+
+## ⚙️ Conceitos e Políticas Implementadas (Master Policy)
+
+Abaixo estão os pilares de Governança e Segurança de Identidade estruturados no laboratório:
+
+1.  **Imposição de Múltiplo Fator de Autenticação (MFA):**
+    *   *Regra:* Obrigatoriedade de validação secundária para qualquer tentativa de liberação de credenciais administrativas contidas no cofre.
+2.  **Gravação e Auditoria de Sessões (Session Recording):**
+    *   *Regra:* Configuração de gravação em vídeo e texto de todas as sessões RDP/SSH iniciadas através do proxy de segurança, permitindo auditoria completa de comandos executados (importante para conformidade e compliance).
+3.  **Fluxo de Aprovação (Dual Control / Privileged Access Request):**
+    *   *Regra:* Implementação de política onde um analista de nível júnior necessita da aprovação explícita de um gestor de segurança (via fluxo automatizado) para obter acesso temporário a um servidor crítico.
+
+---
+
+## 🧠 Conceitos de Cibersegurança Consolidados
+
+*   **Identity Security (IAM/PAM):** Entendimento profundo de como a gestão de identidades mitiga o abuso de privilégios em sistemas operacionais corporativos.
+*   **Princípio do Privilégio Mínimo (Least Privilege):** Garantia de que usuários e processos tenham apenas os acessos estritamente necessários para suas funções, pelo menor tempo possível.
+*   **Mitigação de Riscos em Ambientes Críticos:** Aplicação de controles de segurança robustos para blindar contas de alto impacto, como ambientes de banco de dados SQL Server.
+
+---
+*Aviso: Este repositório contém documentações de cunho estritamente educacional e conceitual. Nenhuma chave criptográfica, senha real ou dado sensível de ambientes corporativos reais está exposto nestes arquivos.*
