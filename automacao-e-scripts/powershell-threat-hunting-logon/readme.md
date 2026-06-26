@@ -26,7 +26,7 @@ Utilizando o PowerShell, foi realizada uma extração cirúrgica do **Log de Seg
 Para gerar uma evidência real no sistema, a tela do Windows foi bloqueada (`Win + L`) e foram realizadas tentativas intencionais de logon com credenciais incorretas, gerando o **ID de Evento 4625** (Falha de Logon).
 
 ### 2. Coleta e Filtragem dos Dados
-Para extrair os eventos gerados sem sobrecarregar a memória, utilizamos uma tabela de filtragem (*Hashtable*), que é a prática recomendada em auditorias reais por ser extremamente performática:
+Para extrair os eventos gerados sem sobrecarregar a memória, foi utilizada uma tabela de filtragem (*Hashtable*), que é a prática recomendada em auditorias reais por ser extremamente performática:
 
 ```powershell
 # Extrai o último evento de falha de logon gerado no sistema
