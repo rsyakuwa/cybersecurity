@@ -14,15 +14,11 @@ O portfólio está organizado em subpastas temáticas. Clique nos links abaixo p
 *Scripts criados para automatizar rotinas de auditoria, coleta de dados, análise de eventos ou respostas rápidas a incidentes.*
 *   **[Auditoria de Conexões e Portas Críticas (PowerShell)](./automacao-e-scripts/powershell-auditoria-portas/)**: Script automatizado para varredura em tempo real de conexões TCP ativas em ambientes Windows, cruzando dados com portas de alto risco (RDP, SMB, Telnet) para identificação de superfícies de ataque.
 *   **[Threat Hunting - Falhas de Logon (PowerShell)](./automacao-e-scripts/powershell-threat-hunting-logon/)**: Laboratório prático de extração de Event IDs 4625 no Windows para detecção de anomalias e tentativas de força bruta em tempo real.
+* **[Simulador de DLP - Data Loss Prevention (PowerShell)](./automacao-e-scripts/powershell-dlp-simulator/)**: Script focado em Governança de Dados e Compliance (LGPD). Realiza inspeção profunda de arquivos (Deep Content Inspection) via Expressões Regulares (Regex) para identificar vazamentos de PII (CPFs/Senhas) com remediação automatizada em quarentena. 
 
 ### 2. 🔏 Gestão de Acessos e Identidade (`/gestao-de-identidade`)
 *Laboratórios focados no princípio do privilégio mínimo, proteção de credenciais e segurança de acessos.*
 *   **[Laboratórios de Identity Security (CyberArk)](./gestao-de-identidade/cyberark-labs/)**: Casos de estudo focados no gerenciamento e isolamento de credenciais privilegiadas, cofres de senhas e políticas de controle de acesso baseadas na plataforma CyberArk.
-
-### 3. 📊 Monitoramento, Redes & Observabilidade (`/infraestrutura-e-monitoramento`)
-*Configurações de infraestrutura segura, análise de tráfego e visibilidade de incidentes.*
-*   **[Observabilidade com Dynatrace Essentials](./infraestrutura-e-monitoramento/dynatrace-labs/)**: Documentação de boas práticas e cenários de detecção de anomalias em infraestrutura crítica, utilizando alertas inteligentes e dashboards de saúde do ambiente[cite: 1].
-*   **[Laboratórios de Redes (Cisco NetAcad)](./infraestrutura-e-monitoramento/cisco-labs/)**: Cenários e topologias de rede seguras simuladas (redes segmentadas, ACLs de firewall e conceitos fundamentais de roteamento/switching)[cite: 1].
 
 ---
 
