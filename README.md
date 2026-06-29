@@ -11,6 +11,8 @@ O objetivo deste portfólio é aplicar minha bagagem de mais de 15 anos de exper
 O portfólio está organizado em subpastas temáticas. Clique nos links abaixo para explorar os códigos e as documentações de cada projeto:
 
 ### 1. ⚙️ Automação, Scripts & SecOps (`/automacao-e-scripts`)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+
 *Scripts criados para automatizar rotinas de auditoria, coleta de dados, análise de eventos ou respostas rápidas a incidentes.*
 *   **[Auditoria de Conexões e Portas Críticas (PowerShell)](./automacao-e-scripts/powershell-auditoria-portas/)**: Script automatizado para varredura em tempo real de conexões TCP ativas em ambientes Windows, cruzando dados com portas de alto risco (RDP, SMB, Telnet) para identificação de superfícies de ataque.
 *   **[Threat Hunting - Falhas de Logon (PowerShell)](./automacao-e-scripts/powershell-threat-hunting-logon/)**: Laboratório prático de extração de Event IDs 4625 no Windows para detecção de anomalias e tentativas de força bruta em tempo real.
