@@ -28,7 +28,7 @@ O script avalia portas e serviços específicos que demandam atenção estrita e
 ## 📂 Estrutura das Evidências (Logs de Auditoria)
 
 O script foi projetado para gerar expressão de conformidade e persistência local automatizada. Toda execução limpa o histórico anterior e gera uma tabela estruturada de auditoria no caminho padrão:
-`C:\DLP-Quarentena\auditoria_conexoes.log`
+`C:\Reports\auditoria_conexoes.log`
 
 *Exemplo do formato de saída capturado no log:*
 ```text
