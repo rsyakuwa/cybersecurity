@@ -1,5 +1,5 @@
 # === CONFIGURAÇÃO DO ARQUIVO DE LOG ===
-$CaminhoLog = "C:\DLP-Quarentena\auditoria_conexoes.log"
+$CaminhoLog = "C:\Reports\auditoria_conexoes.log"
 
 function Registrar-Log ($Mensagem) {
     $DataHora = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
